@@ -1,0 +1,22 @@
+body, h1 { font-family: sans-serif; }
+
+body {margin: 0;}
+
+h1 { color: navy;}
+
+.pusher {
+    height: 800px;
+}
+
+.debug {
+    position: fixed;
+    right: 0;
+    top: 40px;
+    background-color: cadetblue;
+    padding: 1rem;
+}
+/************************* header **************************/
+header, footer {
+    height: 200px;
+    background-color: burlywood;
+}
