@@ -20,3 +20,25 @@ header, footer {
     height: 200px;
     background-color: burlywood;
 }
+
+/************************* header **************************/
+.debugger {
+    &::before {
+/*//        content: 'all';*/
+/*        // Mobile*/
+        @include mq('small', 'max') {
+/*            // Landscape*/
+            @media (orientation: landscape) {
+                content: 'mobile landscape';
+            }
+/*            // Portrait*/
+            @media (orientation: portrait) {
+                content: 'mobile portrait';
+            }
+        }
+/*        // Desktop*/
+        @include mq('small', 'min') {
+            content: 'desktop';
+        }
+    }
+}
