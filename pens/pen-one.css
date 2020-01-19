@@ -1,0 +1,25 @@
+
+
+  @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+    .ipad-portrait {
+      color: red;
+    }
+
+    .debug-mq::after {
+    content: 'ipad portrait';
+    }
+
+    /* your css rules for ipad portrait */
+  }
+
+  @media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
+    .ipad-landscape {
+      color: blue;
+    }
+    .debug-mq::after {
+    content: 'ipad landscape';
+    }
+    /* your css rules for ipad landscape */
+  }
+
+
