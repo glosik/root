@@ -4,12 +4,18 @@
   "description": "javascript typescript brocolli and whatever",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:b": "broccoli build --overwrite",
+    "serve:b": "broccoli serve"
   },
   "keywords": [
     "js",
     "css"
   ],
   "author": "me",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "broccoli": "^2.0.0-beta.4",
+    "broccoli-cli": "^1.0.0"
+  }
 }
