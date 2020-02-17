@@ -5,8 +5,8 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:b": "broccoli build --overwrite",
-    "serve:b": "broccoli serve"
+    "b": "broccoli build --overwrite",
+    "s": "broccoli serve"
   },
   "keywords": [
     "js",
@@ -15,7 +15,17 @@
   "author": "me",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
     "broccoli": "^2.0.0-beta.4",
-    "broccoli-cli": "^1.0.0"
+    "broccoli-babel-transpiler": "^7.4.0",
+    "broccoli-cli": "^1.0.0",
+    "broccoli-funnel": "^2.0.2",
+    "broccoli-merge-trees": "^3.0.2",
+    "broccoli-rollup": "^2.1.1",
+    "broccoli-sass-source-maps": "^4.0.0",
+    "rollup": "^0.66.6",
+    "rollup-plugin-babel": "^4.3.3",
+    "sass": "^1.25.0"
   }
 }
