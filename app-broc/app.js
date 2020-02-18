@@ -1,1 +1,3 @@
-alert("Eat your greens");
+ // alert("typescript");
+
+console.log('red')
